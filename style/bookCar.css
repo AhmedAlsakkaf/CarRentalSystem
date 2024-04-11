@@ -1,0 +1,12 @@
+.book-car{
+  height: 600px;
+  background-color: var(--logo-clr);
+
+}
+
+
+.book-car-container{
+  display: grid;
+  grid-template-rows: 100px 250px 250px ;
+}
+

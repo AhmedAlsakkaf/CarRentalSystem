@@ -1,0 +1,67 @@
+.container{
+  display: flex;
+  height: 100px;
+  flex-direction: row;
+  background-color: var(--logo-clr);
+  
+}
+
+.left-side{
+  flex: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo{
+  width: 120px;
+}
+
+
+
+.middle-side{
+
+  flex: 60%;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-side a{
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+
+
+.right-side{
+  flex: 25%;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+
+.right-side button{
+  margin-right: 20px;
+  height: 40px;
+  width: 150px;
+  border: none;
+  border-radius: 50px;
+
+  font-style: var(--text-clr);
+}
+
+.log-in{
+  background-color: var(--text-clr);
+  font-weight: bold;
+  color: var(--page-clr);
+}
+
+.sign-up{
+  color: var(--text-clr);
+  font-weight: bold;
+}
+
+
+
