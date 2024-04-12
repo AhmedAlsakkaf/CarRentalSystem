@@ -1,0 +1,63 @@
+.plan-trip{
+  margin-top: 500px;
+}
+
+.plan-trip-container{
+  height: 1000px;
+  display: grid;
+  grid-template-rows: 300px 1fr;
+}
+
+.plan-trip-title{
+  text-align: center;
+  font-weight: bold
+}
+
+.plan-trip-title p{
+  font-size: 20px;
+}
+
+.plan-trip-title h1{
+  font-weight: bold;
+}
+
+
+
+.plan-trip-services{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.plan-trip-services-col{
+  display: grid;
+  grid-template-rows: 400px 100px 100px ;
+  text-align: center;
+  column-gap: 20px;
+}
+
+
+.plan-trip-services-col h3{
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.plan-trip-services-col p{
+  color: var(--secondary-clr);
+  font-weight: bold;
+  width: 300px;
+  margin-left: 100px;
+  font-size: 20px;
+}
+
+.service-img{
+  width: 400px;
+  align-self: center;
+  margin-left: 60px;
+}
+
+.service2{
+  width: 300px;
+  margin-left: 100px;
+}
+

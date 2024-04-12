@@ -6,14 +6,15 @@
   /*===== Colors =====*/
   --page-clr : #FDF7ED;
   --text-clr: #342103;
-  --logo-clr: #c0aa92
+  --logo-clr: #d6cbba;
+  --secondary-clr: #816538;
 
 
 }
 
 
 /* Responsive Typography */
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   :root {
       --biggest-font-size: 2rem;
       --h1-font-size: 1.5rem;
@@ -23,7 +24,7 @@
       --small-font-size: .813rem;
       --smaller-font-size: .75rem;
   }
-}
+} */
 
 
 
